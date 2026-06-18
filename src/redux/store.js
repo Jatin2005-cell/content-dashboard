@@ -4,7 +4,7 @@ import newsReducer from "./Slices/newsSlice";
 import movieReducer from "./Slices/movieSlice";
 import favoriteReducer from "./Slices/favoriteSlice";
 import settingsReducer from "./Slices/settingsSlice";
-import searchReducer from "./slices/searchSlice";
+import searchReducer from "./Slices/searchSlice";
 
 
 export const store = configureStore({

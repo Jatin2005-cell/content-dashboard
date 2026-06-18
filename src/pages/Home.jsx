@@ -11,8 +11,8 @@ import { fetchTrendingMovies } from "../services/movieApi";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 
-import { setNews, setLoading } from "../redux/slices/newsSlice";
-import { setMovies, setMovieLoading } from "../redux/slices/movieSlice";
+import { setNews, setLoading } from "../redux/Slices/newsSlice";
+import { setMovies, setMovieLoading } from "../redux/Slices/movieSlice";
 
 function Home() {
   const dispatch = useDispatch();
