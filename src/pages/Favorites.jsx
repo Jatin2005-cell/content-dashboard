@@ -1,6 +1,6 @@
 import DashboardLayout from "../components/layout/DashboardLayout";
 import { useSelector, useDispatch } from "react-redux";
-import { removeFavorite } from "../redux/slices/favoriteSlice";
+import { removeFavorite } from "../redux/Slices/favoriteSlice";
 import { FaTrash } from "react-icons/fa";
 
 function Favorites() {

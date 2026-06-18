@@ -1,7 +1,7 @@
 import DashboardLayout from "../components/layout/DashboardLayout";
 import ThemeToggle from "../components/common/ThemeToggle";
 import { useDispatch } from "react-redux";
-import { clearFavorites } from "../redux/slices/favoriteSlice";
+import { clearFavorites } from "../redux/Slices/favoriteSlice";
 
 function Settings() {
   const dispatch = useDispatch();

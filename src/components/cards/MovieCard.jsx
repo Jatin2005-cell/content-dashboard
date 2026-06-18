@@ -1,6 +1,6 @@
 import { FaHeart, FaStar } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { addFavorite } from "../../redux/slices/favoriteSlice";
+import { addFavorite } from "../../redux/Slices/favoriteSlice";
 
 function MovieCard({ movie }) {
   const dispatch = useDispatch();

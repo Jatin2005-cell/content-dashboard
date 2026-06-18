@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { setQuery } from "../../redux/slices/searchSlice";
+import { setQuery } from "../../redux/Slices/searchSlice";
 
 function SearchBar() {
   const dispatch = useDispatch();

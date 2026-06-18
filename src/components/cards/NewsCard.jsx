@@ -1,6 +1,6 @@
 import { FaHeart } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { addFavorite } from "../../redux/slices/favoriteSlice";
+import { addFavorite } from "../../redux/Slices/favoriteSlice";
 
 function NewsCard({ article }) {
   const dispatch = useDispatch();
