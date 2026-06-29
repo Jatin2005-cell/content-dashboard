@@ -1,16 +1,14 @@
 import axios from "axios";
 
-const API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
-
 export const fetchNews = async () => {
   try {
     const response = await axios.get(
-      `https://gnews.io/api/v4/top-headlines?category=technology&lang=en&country=us&max=10&apikey=${API_KEY}`
+      "https://dev.to/api/articles?per_page=12"
     );
 
-    return response.data.articles;
+    return response.data;
   } catch (error) {
-    console.error("News API Error:", error);
+    console.error("DEV.to API Error:", error);
     return [];
   }
 };
