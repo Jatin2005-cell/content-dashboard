@@ -112,8 +112,8 @@ function Home() {
         {/* News Section */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">
-            Latest News
-          </h2>
+  Trending Developer Articles
+</h2>
 
           {newsLoading ? (
             <Loader />
